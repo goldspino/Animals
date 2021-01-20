@@ -1,0 +1,12 @@
+animals = ["dinosaur", "crocodile", "jaguar", "sharks", "octopus"]
+print(animals)
+print(animals.index("crocodile"))
+animals.append("snake")
+print(animals)
+animals.insert(3,"jellyfish")
+print(animals)
+animals.pop(3)
+print(animals)
+animals.remove("snake") 
+print(animals)
+print(len(animals))
